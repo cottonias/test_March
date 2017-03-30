@@ -14,3 +14,9 @@ Do you need more info as to why this repo rocks? Here you go!
 *Specifically*, the change will not be commited to the repo.
 
 The changes that you would like to save should be staged to commit.
+
+```git status``` will check status (to outline if there are changes and what those changes are)
+```git add <filename>``` will add an individual filename
+```git add .``` will add all content in the directory (for staging)
+
+```git commit -m "<text>"``` will commit the staged changes with a message associated with the changes
